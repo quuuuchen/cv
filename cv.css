@@ -1,0 +1,256 @@
+/*
+淺灰背景 	#f0f0f0
+
+
+font
+微軟正黑體
+title 中文:32px 英文:28px
+context 中文:20px 英文:18px
+
+最佳顯示螢幕寬度1920px
+*/
+
+html,body{
+  width: 100%; height: 1200px;
+  margin: 0px; padding: 0px;
+  font-family:微軟正黑體;
+  background-image: url("bg22.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /*background:#4C4C4E;*/
+}
+*{
+  border:solid 0px black;
+  box-sizing: border-box;
+  position:relative;
+  /*background:	#f0f0f0;*/
+}
+.resume{
+  height:930px; width:58%;
+  margin-right:auto;
+  margin-left:auto;
+  font-size: 0px;
+  top:50px;
+  /*border:solid 2px white;*/
+  background:rgba(255, 255, 255, 0.4);
+  overflow:hidden;
+
+  /*box-shadow:15px 10px 80px;*/
+}
+.header{
+  height:300px; width:900px;
+  border-bottom:solid 3px white;
+}
+.pic{
+  overflow:hidden;
+  height:200px; width:200px;
+  border-radius:100%;
+  margin-left:130px;
+  margin-top:50px;
+  display:inline-block;
+  background:white;
+}
+.headerr{
+  display:block;
+  width:55%;
+  height: 100%;
+}
+.name{
+  width:380px;
+  height:50px;
+  position:absolute;
+  top:25%;
+  left:370px;
+  border-bottom:solid 3px white;
+}
+.namewd{
+  display:inline-block;
+  width:100px;
+  font-size:32px;
+  margin-left:5px;
+  color:white;
+}
+.en{
+  width:190px;
+  font-size:28px;
+  text-align:center;
+  margin-left:-5px;
+}
+.context{
+  width:380px; height:100px;
+  position:absolute;
+  top:45%;
+  left:370px;
+}
+.fb{
+  overflow:hidden;
+  display:inline-block;
+  width:40px; height:40px;
+  border-radius:20%;
+  font-size:42px;
+  font-weight:900;
+  margin-top:5px;
+  padding-left:18px;
+  padding-top:2px;
+  color:white;
+  background:	#4f4f4f;
+}
+.gm{
+  overflow:hidden;
+  display:inline-block;
+  width:40px; height:40px;
+  border-radius:20%;
+  font-size:43px;
+  font-weight:900;
+  color:#f0f0f0;
+  background:	#4f4f4f;
+}
+.ct{
+  top:-10px;
+  margin-left:5px;
+  display:inline-block;
+  color:white;
+  font-size:20px;
+}
+.left{
+  position:absolute;
+  top:300px;
+  width:450px;  height:700px;
+  border-right:solid 3px white;
+}
+.right{
+  position:absolute;
+  top:300px;
+  left:460px;
+  width:440px; height:700px;
+
+}
+.lftitle{
+  display:block;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align:center;
+  width:220px;
+  height:40px;
+  font-size:28px;
+  font-weight:700;
+  color:white;
+}
+.lan{
+  position:absolute;
+  display:inline-block;
+  width:50px; height:100px;
+  border-radius:100px 0px 0px 100px;
+  text-align:center;
+  padding-top:35px;
+  margin-left:30px;
+  margin-top:10px;
+  margin-bottom:40px;
+  background:rgba(255, 255, 255, 0.35);
+}
+.rlan{
+  margin-left:80px;
+  background:rgba(255, 255, 255, 1);
+  border-radius:0px 100px 100px 0px;
+}
+.chcircle{
+  margin-left:80px;
+  background:rgba(255, 255, 255, 1);
+  border-radius:0px 100px 100px 0px;
+  transform-origin: left;
+  transform: rotate(.5turn);
+}
+.encircle{
+  margin-left:80px;
+  background:rgba(255, 255, 255, 1);
+  border-radius:0px 100px 100px 0px;
+  transform-origin: left;
+  transform: rotate(.2turn);
+}
+.jpcircle{
+  margin-left:80px;
+  background:rgba(255, 255, 255, 0.2);
+  border-radius:0px 100px 100px 0px;
+  transform-origin: left;
+  transform: rotate(.2turn);
+}
+
+.rightcr{
+  display:inline-block;
+  width:87px; height:87px;
+  border-radius:100%;
+  text-align:center;
+  padding-top:35px;
+  margin-left:37px;
+  margin-top:16px;
+  margin-bottom:20px;
+  font-size:18px;
+  font-weight:600;
+  color:#4C4C4E;
+}
+
+.skill{
+  text-align:center;
+  display:block;
+  width:250px; height:23px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  color:white;
+  font-size:18px;
+  font-weight:bold;
+}
+.skillbar{
+  padding-top:5px;
+  padding-left:100px;
+  width:400px; height:30px;
+  margin-bottom:15px;
+}
+
+.bar{
+  width:250px; height:16px;
+  border:solid 2px white;
+  border-radius:5px;
+}
+.lagbar{
+  width:150px; height:14px;
+  background:white;
+  border-radius:3px;
+}
+.webfbar{
+  width:125px; height:14px;
+  background:white;
+  border-radius:3px;
+}
+.webebar{
+  width:175px; height:14px;
+  background:white;
+  border-radius:3px;
+}
+.adobebar{
+  width:185px; height:14px;
+  background:white;
+  border-radius:3px;
+}
+.officebar{
+  width:160px; height:14px;
+  background:white;
+  border-radius:3px;
+}
+.rightcontext{
+  margin-left:70px;
+  margin-bottom:80px;
+  color:white;
+}
+.rightlist{
+  margin-bottom:10px;
+  font-size:18px;
+}
+.ptc{
+  font-weight:700;
+  margin-left:-30px;
+}
